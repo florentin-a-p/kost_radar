@@ -1,0 +1,15 @@
+{
+    "name":"Kost Radar",
+    "version":"0.1",
+    "manifest_version":2,
+    "description":"a google chrome extension that allows users to block an address, right-click and then get nearest cafes and nearest station from that address",
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_title":"search for bus stations and cafes around your place",
+        "default_popup":"extension.html"
+    },
+    "content_security_policy":"script-src 'self' https://www.google.com; object-src 'self'",
+    "icons":{
+        "128":"icon.png"
+    }
+}
